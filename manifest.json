@@ -1,11 +1,14 @@
 {
   "name": "CookieEditor",
   "description": "Editor website cookie",
-  "version": "0.1",
+  "version": "0.1.1",
   "icons": {
     "16": "./icons/icon16.png",
     "48": "./icons/icon48.png",
     "128": "./icons/icon128.png"
+  },
+  "background": {
+    "page": "bg.html"
   },
   "permissions": [
     "cookies",
@@ -13,7 +16,7 @@
     "http://*/*", "https://*/*"
   ],
   "browser_action": {
-      "default_title": "Click to show popup",
+      "default_title": "CookieEditor",
       "default_popup": "popup.html"
   },
   "manifest_version": 2
